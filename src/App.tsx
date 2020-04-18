@@ -1,6 +1,7 @@
 import React from "react";
 import ClassCounter from "./components/ClassCounter";
-import HookClassCounter from "./components/HookClassCounter";
+import HookCounter from "./components/HookCounter";
+import HookCounter2 from "./components/HookCounter2";
 
 const App = () => {
   return (
@@ -8,7 +9,9 @@ const App = () => {
       <hr />
       <ClassCounter />
       <hr />
-      <HookClassCounter />
+      <HookCounter />
+      <hr/>
+      <HookCounter2 />
     </div>
   );
 };
