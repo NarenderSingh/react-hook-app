@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 interface IEmployee {
-  firstName?: string;
-  lastName?: string;
+  firstName: string;
+  lastName: string;
 }
 
 const HookCounter3 = () => {
@@ -15,7 +15,7 @@ const HookCounter3 = () => {
 
   return (
     <div>
-      <h3>Hook Counter Component 3</h3>
+      <h3>Hook Component 3 - useState with Object</h3>
       <form>
         <input
           type="text"
