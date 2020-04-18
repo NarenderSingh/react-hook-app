@@ -1,9 +1,30 @@
-import React from "react";
+import React, { Component } from "react";
 
-const ClassCounter = () => (
-  <div>
-    <h2>Hello World</h2>
-  </div>
-);
+interface IClassCounter {
+  count: number;
+}
+
+class ClassCounter extends Component<any, IClassCounter> {
+  constructor(props: any) {
+    super(props);
+
+    this.state = {
+      count: 0,
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <h3>Class Counter Component</h3>
+        <button onClick={this.incrementCount}>Count {this.state.count}</button>
+      </div>
+    );
+  }
+
+  incrementCount = () => {
+    this.setState({ count: this.state.count + 1 });
+  };
+}
 
 export default ClassCounter;
