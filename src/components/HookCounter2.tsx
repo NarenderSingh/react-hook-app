@@ -13,7 +13,7 @@ const HookCounter2 = () => {
 
   return (
     <div>
-      <h3>Hook Class Counter</h3>
+      <h3>Hook Counter Component 2</h3>
       <div>
         <p>Count : {count}</p>
         <button onClick={() => setCount(initialCount)}>Reset</button>
