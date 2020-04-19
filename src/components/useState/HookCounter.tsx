@@ -5,7 +5,7 @@ const HookCounter = () => {
 
   return (
     <div>
-      <h3>Hook Counter Component</h3>
+      <h3>Hook Counter Component - useState with number</h3>
       <div>
         <button onClick={() => setCount(count + 1)}>Count {count}</button>
       </div>
