@@ -7,6 +7,10 @@ const HookMouse = () => {
   useEffect(() => {
     console.log("use mouse effect");
     window.addEventListener("mousemove", logMousePostion);
+
+    return () => {
+      window.removeEventListener("mousemove", logMousePostion);
+    };
   }, []);
 
   const logMousePostion = (e: any) => {

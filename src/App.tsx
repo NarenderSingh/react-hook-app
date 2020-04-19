@@ -8,7 +8,7 @@ import ClassCounter1 from "./components/useEffect/class/ClassCounter1";
 import HookCounter5 from "./components/useEffect/hook/HookCounter5";
 import HookCounter6 from "./components/useEffect/hook/HookCounter6";
 import ClassMouse from "./components/useEffect/class/ClassMount";
-import HookMouse from "./components/useEffect/hook/HookMouse";
+import MouseContainer from "./components/useEffect/hook/MouseContainer";
 
 const App = () => {
   return (
@@ -32,7 +32,7 @@ const App = () => {
       <hr />
       <ClassMouse />
       <hr />
-      <HookMouse />
+      <MouseContainer />
     </div>
   );
 };
