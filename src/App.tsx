@@ -13,7 +13,7 @@ import IntervalHookCounter from "./components/useEffect/hook/IntervalHookCounter
 import DataFetching from "./components/useEffect/async/DataFetching";
 import DataFetching1 from "./components/useEffect/async/DataFetching1";
 import DataFetching2 from "./components/useEffect/async/DataFetching2";
-import AppContext from "./components/useContext/example/App";
+import AppContext from "./components/useContext/App";
 
 const App = () => {
   return (

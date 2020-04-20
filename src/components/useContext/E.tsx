@@ -1,9 +1,11 @@
 import React from "react";
 import ComponentF from "./F";
+import UseContextHook from "./UseContextHook";
 
 const ComponentE = () => (
   <div>
-    <ComponentF />
+    {/* <ComponentF /> */}
+    <UseContextHook />
   </div>
 );
 
