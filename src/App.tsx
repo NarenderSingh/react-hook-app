@@ -12,6 +12,7 @@ import MouseContainer from "./components/useEffect/hook/MouseContainer";
 import IntervalHookCounter from "./components/useEffect/hook/IntervalHookCounter";
 import DataFetching from "./components/useEffect/async/DataFetching";
 import DataFetching1 from "./components/useEffect/async/DataFetching1";
+import DataFetching2 from "./components/useEffect/async/DataFetching2";
 
 const App = () => {
   return (
@@ -38,10 +39,12 @@ const App = () => {
       <MouseContainer />
       <hr/>
       <IntervalHookCounter/> */}
-      <hr />
-      {/* <DataFetching /> */}
-      <hr />
-      <DataFetching1 />
+      {/* <hr />
+      <DataFetching /> */}
+      {/* <hr />
+      <DataFetching1 /> */}
+      <hr/>
+      <DataFetching2 />
     </div>
   );
 };
