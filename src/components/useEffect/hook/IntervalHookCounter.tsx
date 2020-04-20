@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import HookMouse from "./HookMouse";
 
 const IntervalHookCounter = () => {
   const [count, setCount] = useState(0);
