@@ -17,6 +17,7 @@ import AppContext from "./components/useContext/App";
 import ReducerCounterOne from "./components/useReducer/ReducerCounterOne";
 import ReducerCounterTwo from "./components/useReducer/ReducerCounterTwo";
 import ReducerCounterThree from "./components/useReducer/ReducerCounterThree";
+import ReducerCounterFour from "./components/useReducer/ReducerCounterFour";
 
 const App = () => {
   return (
@@ -49,7 +50,8 @@ const App = () => {
       {/* <AppContext /> */}
       {/* <ReducerCounterOne /> */}
       {/* <ReducerCounterTwo /> */}
-      <ReducerCounterThree />
+      {/* <ReducerCounterThree /> */}
+      <ReducerCounterFour />
     </div>
   );
 };
