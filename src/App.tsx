@@ -16,6 +16,7 @@ import DataFetching2 from "./components/useEffect/async/DataFetching2";
 import AppContext from "./components/useContext/App";
 import ReducerCounterOne from "./components/useReducer/ReducerCounterOne";
 import ReducerCounterTwo from "./components/useReducer/ReducerCounterTwo";
+import ReducerCounterThree from "./components/useReducer/ReducerCounterThree";
 
 const App = () => {
   return (
@@ -47,7 +48,8 @@ const App = () => {
       {/* <DataFetching2 /> */}
       {/* <AppContext /> */}
       {/* <ReducerCounterOne /> */}
-      <ReducerCounterTwo />
+      {/* <ReducerCounterTwo /> */}
+      <ReducerCounterThree />
     </div>
   );
 };

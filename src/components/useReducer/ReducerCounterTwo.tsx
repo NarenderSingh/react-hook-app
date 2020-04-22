@@ -27,7 +27,7 @@ const ReducerCounterTwo = () => {
 
   return (
     <div>
-      <h3>Reducer Counter One</h3>
+      <h3>Reducer Counter Two</h3>
       {state.firstCounter}
       <div>
         <button onClick={() => dispatch({ type: INCREMENT })}>Increment</button>
