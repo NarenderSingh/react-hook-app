@@ -15,6 +15,7 @@ import DataFetching1 from "./components/useEffect/async/DataFetching1";
 import DataFetching2 from "./components/useEffect/async/DataFetching2";
 import AppContext from "./components/useContext/App";
 import ReducerCounterOne from "./components/useReducer/ReducerCounterOne";
+import ReducerCounterTwo from "./components/useReducer/ReducerCounterTwo";
 
 const App = () => {
   return (
@@ -41,15 +42,12 @@ const App = () => {
       <MouseContainer />
       <hr/>
       <IntervalHookCounter/> */}
-      {/* <hr />
-      <DataFetching /> */}
-      {/* <hr />
-      <DataFetching1 /> */}
-      {/* <hr/>
-      <DataFetching2 /> */}
-      {/* <hr />
-      <AppContext /> */}
-      <ReducerCounterOne />
+      {/* <DataFetching /> */}
+      {/* <DataFetching1 /> 
+      {/* <DataFetching2 /> */}
+      {/* <AppContext /> */}
+      {/* <ReducerCounterOne /> */}
+      <ReducerCounterTwo />
     </div>
   );
 };
