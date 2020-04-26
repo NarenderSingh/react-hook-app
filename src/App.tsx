@@ -19,6 +19,7 @@ import ReducerCounterTwo from "./components/useReducer/ReducerCounterTwo";
 import ReducerCounterThree from "./components/useReducer/ReducerCounterThree";
 import ReducerCounterFour from "./components/useReducer/ReducerCounterFour";
 import AppReducerContext from "./components/useReducer/useReducerWithuseContext/AppReducerContext";
+import AppUseCallback from "./components/useCallback/App";
 
 const App = () => {
   return (
@@ -53,7 +54,8 @@ const App = () => {
       {/* <ReducerCounterTwo /> */}
       {/* <ReducerCounterThree /> */}
       {/* <ReducerCounterFour /> */}
-      <AppReducerContext />
+      {/* <AppReducerContext /> */}
+      <AppUseCallback />
     </div>
   );
 };
