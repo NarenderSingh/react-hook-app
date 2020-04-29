@@ -22,6 +22,7 @@ import AppReducerContext from "./components/useReducer/useReducerWithuseContext/
 import AppUseCallback from "./components/useCallback/App";
 import AppUseMemo from "./components/useMemo/App";
 import FocusInput from "./components/useRef/FocusInput";
+import RefTimerHook from "./components/useRef/RefTimerHook";
 
 const App = () => {
   return (
@@ -59,7 +60,8 @@ const App = () => {
       {/* <AppReducerContext /> */}
       {/* <AppUseCallback /> */}
       {/* <AppUseMemo /> */}
-      <FocusInput />
+      {/* <FocusInput /> */}
+      <RefTimerHook />
     </div>
   );
 };
