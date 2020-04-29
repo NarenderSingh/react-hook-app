@@ -20,6 +20,8 @@ import ReducerCounterThree from "./components/useReducer/ReducerCounterThree";
 import ReducerCounterFour from "./components/useReducer/ReducerCounterFour";
 import AppReducerContext from "./components/useReducer/useReducerWithuseContext/AppReducerContext";
 import AppUseCallback from "./components/useCallback/App";
+import AppUseMemo from "./components/useMemo/App";
+import FocusInput from "./components/useRef/FocusInput";
 
 const App = () => {
   return (
@@ -55,7 +57,9 @@ const App = () => {
       {/* <ReducerCounterThree /> */}
       {/* <ReducerCounterFour /> */}
       {/* <AppReducerContext /> */}
-      <AppUseCallback />
+      {/* <AppUseCallback /> */}
+      {/* <AppUseMemo /> */}
+      <FocusInput />
     </div>
   );
 };
